@@ -35,8 +35,8 @@ class _CustomComicCardState extends State<CustomComicCard> {
                 borderRadius: BorderRadius.circular(8),
                 child: Image.network(
                   comic.imageUrl,
-                  width: 120,
-                  height: 180,
+                  width: 150,
+                  height: 220,
                   fit: BoxFit.cover,
                 ),
               ),
@@ -78,7 +78,7 @@ class _CustomComicCardState extends State<CustomComicCard> {
                           label: const Text(
                             "Đọc truyện",
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 12,
                               fontWeight: FontWeight.w500,
                               color: Colors.indigo,
                             ),
